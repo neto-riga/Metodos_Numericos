@@ -48,6 +48,71 @@
 
 ## Ejercicio 2. Método de Bisección
 [Índice](#índice)
+
+Determina el coeficiente de rozamiento c, necesario para que un paracaidista de masa *m* = 68.1 tenga una velocidad de 40 $m/s$ después de una caída libre de *t* = 10s. La aceleración de la gravedad es de 9.8 $m/s^2$.
+
+Este problema se puede resolver determinando la raíz de la ecuación:
+
+$$ f(c) =\frac{gm}{c}\left(1-e^{-\left(\frac{c}{m}\right)t}\right)-v $$
+
+(Segunda Ley de Newton)
+Donde: 
+
+
+
+> *t* = tiempo
+
+> *v* = velocidad
+
+> *m* = masa
+
+
+> *g* = aceleración de la gravedad
+
+<br>
+
+$
+f(c) =\frac{(9.8)(68.1)}{c}\left(1-e^{-\left(\frac{c}{68.1}\right)10}\right)-40
+$
+ 
+
+Resolver el problema, elegir un intervalo,
+encontrar una raíz, con tolerancia 0.00005 en el error relativo.
+
+Ahora implementamos el método de la bisección. Colocamos la tolerancia del error en la condicion del *while* para realizar el proceso hasta que se compla. Para que el método funcione, verificamos $f(a)*f(b)<0$ Es decir, que tengan signos contrarios.  Si se cumple, entonces $b\leftarrow	p$ $a\leftarrow	 a$ De lo contrario $a\leftarrow	 p$ $b \leftarrow	 b$ Obtenemos el punto medio para que, de ser necesario repitamos el proceso.
+
+$p = \frac{a+b}{2}$ Adjuntamos a *p* nuestra lista de soluciones además de contar las iteraciones. Calculamos el *error relativo*, el cual será utilizado como criterio para detener el método. $E_{a}=|x_{n}-x_{n-1}|$ Obtenemos también el *error relativo*  $E_{r}=\frac{|x_{n}-x_{n-1}|}{|x_{n}|}$ Realizamos el conteo de la iteraciones realizadas y guardamos los errores calculados.
+
+El programa utilizado para implementar el método se concentra en el siguiente código.
+
+```python
+a = [14.0]
+b = [16.0]
+p = (a[0]+b[0])/2
+solucion = [p]
+err_abs = ['NA']
+i=int(0)
+iteraciones = [i]
+err_rel = [1.0]
+
+while(err_rel[i]>0.00005):
+    if (f(a[i])*f(solucion[i]))<0:
+        a.append(a[i])
+        b.append(p)
+    else:
+        a.append(p)
+        b.append(b[i])
+    
+    i+=1
+    p = (a[i]+b[i])/2
+    solucion.append(p)
+    err_abs.append(abs(solucion[i]-solucion[i-1]))
+    err_rel.append( abs(solucion[i]-solucion[i-1])/abs(solucion[i]) )
+    iteraciones.append(i)
+    
+err_rel[0]='NA'
+```
+
 ## Ejercicio 3. Método de la Posición Falsa
 [Índice](#índice)
 ## Ejercicio 4. Método de Newton
