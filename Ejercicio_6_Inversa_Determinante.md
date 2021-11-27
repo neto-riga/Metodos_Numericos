@@ -1,12 +1,12 @@
 # Ejercicio 6. Inversa Determinante 
 
 Sea la siguiente matriz:
-$$A=\begin{bmatrix}
- 1& 4&-2& 0\\
+<img src="https://render.githubusercontent.com/render/math?math=A=\begin{bmatrix}1& 4&-2& 0\\
 -3&-2& 0& 1\\
  3& 2& 1&-1\\
  2&-2& 3& 4
-\end{bmatrix}$$
+\end{bmatrix}">
+
 Obtener 
 \begin{itemize}
     \item Matriz de menores
