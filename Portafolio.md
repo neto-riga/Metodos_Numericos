@@ -53,7 +53,9 @@ Determina el coeficiente de rozamiento c, necesario para que un paracaidista de 
 
 Este problema se puede resolver determinando la raíz de la ecuación:
 
-$$ f(c) =\frac{gm}{c}\left(1-e^{-\left(\frac{c}{m}\right)t}\right)-v $$
+$
+f(c) =\frac{gm}{c}\left(1-e^{-\left(\frac{c}{m}\right)t}\right)-v
+$
 
 (Segunda Ley de Newton)
 Donde: 
