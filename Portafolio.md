@@ -1,12 +1,9 @@
-<style>
-      .img-container {
-        text-align: center;
-      }
-    </style>
 <div class="img-container">
+<center>
 <img src="escudo-d.png"
      alt="Logo"
      style="width:200px; text-align: center;" />
+</center>
 </div>
 <br><br>
 
@@ -14,10 +11,10 @@
 <center>Rivera Gálvez Ernesto</center>
 
 <br> <br>
-# Índice <a name="indice"></a>
+# Índice
 
 - [Portafolio Métodos Numéricos :technologist:](#portafolio-métodos-numéricos-technologist)
-- [Índice <a name="indice"></a>](#índice-)
+- [Índice](#índice)
 - [Análisis de Error](#análisis-de-error)
   - [Ejercicio 1. Error de Redondeo](#ejercicio-1-error-de-redondeo)
 - [Solución de Ecuaciones](#solución-de-ecuaciones)
@@ -30,12 +27,12 @@
 # Análisis de Error
 
 ## Ejercicio 1. Error de Redondeo
-[Índice](#indice)
+[Índice](#índice)
 
 # Solución de Ecuaciones
 
 ## Ejercicio 2. Método de Bisección
-[Índice](#indice)
+[Índice](#índice)
 ## Ejercicio 3. Método de la Posición Falsa
 ## Ejercicio 4. Método de Newton
 ## Ejercicio 5. Método de la Secante
