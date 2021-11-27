@@ -71,6 +71,7 @@ Donde:
 
 <br>
 
+
 <img src="https://render.githubusercontent.com/render/math?math=f(c) =\frac{(9.8)(68.1)}{c}\left(1-e^{-\left(\frac{c}{68.1}\right)10}\right)-40">
  
 
