@@ -49,13 +49,11 @@
 ## Ejercicio 2. Método de Bisección
 [Índice](#índice)
 
-Determina el coeficiente de rozamiento c, necesario para que un paracaidista de masa *m* = 68.1 tenga una velocidad de 40 $m/s$ después de una caída libre de *t* = 10s. La aceleración de la gravedad es de 9.8 $m/s^2$.
+Determina el coeficiente de rozamiento c, necesario para que un paracaidista de masa *m* = 68.1 tenga una velocidad de 40 $m/s$ después de una caída libre de *t* = 10s. La aceleración de la gravedad es de 9.8 <img src="https://render.githubusercontent.com/render/math?math=m/s^2">.
 
 Este problema se puede resolver determinando la raíz de la ecuación:
 
-$
-f(c) =\frac{gm}{c}\left(1-e^{-\left(\frac{c}{m}\right)t}\right)-v
-$
+<img src="https://render.githubusercontent.com/render/math?math=f(c) =\frac{gm}{c}\left(1-e^{-\left(\frac{c}{m}\right)t}\right)-v">
 
 (Segunda Ley de Newton)
 Donde: 
