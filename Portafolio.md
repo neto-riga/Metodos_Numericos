@@ -2,7 +2,7 @@
 <center>
 <img src="escudo-d.png"
      alt="Logo"
-     style="width:200px; text-align: center;" />
+     style="width:200px; class:"center";" />
 </center>
 </div>
 <br><br>
