@@ -2,7 +2,7 @@
 <center>
 <img src="escudo-d.png"
      alt="Logo"
-     style="width:200px; text-align:"center";" />
+     style="width:300px; text-align:"center";" />
 </center>
 </div>
 <br><br>
@@ -16,7 +16,6 @@ Este es un portafolio utilizando la herramienta google colab junto con github. A
 <br> <br>
 # Índice
 
-- [Portafolio Métodos Numéricos :technologist:](#portafolio-métodos-numéricos-technologist)
 - [Índice](#índice)
 - Análisis de Error
   - [Ejercicio 1. Error de Redondeo](#ejercicio-1-error-de-redondeo)
