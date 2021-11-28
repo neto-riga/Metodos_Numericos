@@ -35,12 +35,12 @@ Para regresar al índice, cada uno de los trabajos tiene un hipervínculo al ini
   - [Ejercicio 10. Método de Jácobi](https://github.com/neto-riga/Metodos_Numericos/blob/main/Ejercicio_10_Jacobi.ipynb)
   - [Ejercicio 11. Método de Gauss-Seidel](https://github.com/neto-riga/Metodos_Numericos/blob/main/Ejercicio_11_Gauss_Seidel.ipynb)
   - [Ejercicio 12. Método de Relajación](#ejercicio-12-método-de-relajación)
-- [Factorización de Matrices](#factorización-de-matrices)
+- Factorización de Matrices
   - [Ejercicio 13. Método de Doolittle](https://github.com/neto-riga/Metodos_Numericos/blob/main/Ejercicio_13_Doolittle.ipynb)
   - [Ejercicio 14. Método de Cholesky y Crout](https://github.com/neto-riga/Metodos_Numericos/blob/main/Ejercicio_14_Cholesky.ipynb)
 - Obtención de Valores Propios
   - [Ejercicio 15. Método de Potencias](https://github.com/neto-riga/Metodos_Numericos/blob/main/Ejercicio_15_Potencia.ipynb)
-  - [Ejercicio 16. Transformación de Hausholder](#ejercicio-16-transformación-de-hausholder)
+  - [Ejercicio 16. Transformación de Householder](https://github.com/neto-riga/Metodos_Numericos/blob/main/Ejercicio_16_Householder.ipynb)
   - [Ejercicio 17. Iteración QR](#ejercicio-17-iteración-qr)
 
 <!-- # Análisis de Error
