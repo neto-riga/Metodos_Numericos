@@ -8,8 +8,8 @@
 <br><br>
 
 # Portafolio Métodos Numéricos :technologist:
-<center>Rivera Gálvez Ernesto</center>
-
+## Rivera Gálvez Ernesto
+<br>
 <br>
 Este portafolio víncula cada una de las tareas realizadas para portafolio, redirige a un documento dentro del mismo repositorio de github. Para obtener le mayor provecho, se puede abrir con el botón open in colab, ya que así se muestra todo correctamente renderizado.
 
