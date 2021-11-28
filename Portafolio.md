@@ -11,9 +11,7 @@
 ## Rivera Gálvez Ernesto
 <br>
 <br>
-Este portafolio víncula cada una de las tareas realizadas para portafolio, redirige a un documento dentro del mismo repositorio de github. Para obtener le mayor provecho, se puede abrir con el botón open in colab, ya que así se muestra todo correctamente renderizado.
-
-Para regresar al índice, cada uno de los trabajos tiene un hipervínculo al inicio y al final que te redirigen a esta parte del repositorio.
+Este es un portafolio utilizando la herramienta google colab junto con github. Algunos ejercicios se realizaron en equipo, de ser así los integrantes se mostrarán al inicio de cada documento. Para acceder al documento basta con darle click en el índice, se trasladará a otro documento dentro del mismo repositorio, para regresar al índice se muestra un hipervínculo al inicio y al final. Para mayor provecho, se añadió para abrir en google colab directamente una insignia al inicio de cada documento, donde algunos trabajos muestran gráficas interactivas o simplemente un mejor renderizado.
 
 <br> <br>
 # Índice
